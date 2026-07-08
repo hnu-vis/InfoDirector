@@ -1,0 +1,101 @@
+﻿{
+    "status":  "success",
+    "examples":  [
+                     {
+                         "id":  "bar2",
+                         "name":  "",
+                         "image":  "static/examples/bar2/bar2.jpg",
+                         "semantic_url":  "static/examples/bar2/bar2_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/bar2/crops/reconstruction.html",
+                         "crops_url":  "static/examples/bar2/crops"
+                     },
+                     {
+                         "id":  "bar3",
+                         "name":  "",
+                         "image":  "static/examples/bar3/bar3.jpg",
+                         "semantic_url":  "static/examples/bar3/bar3_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/bar3/crops/reconstruction.html",
+                         "crops_url":  "static/examples/bar3/crops"
+                     },
+                     {
+                         "id":  "bar5",
+                         "name":  "",
+                         "image":  "static/examples/bar5/bar5.jpg",
+                         "semantic_url":  "static/examples/bar5/bar5_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/bar5/crops/reconstruction.html",
+                         "crops_url":  "static/examples/bar5/crops"
+                     },
+                     {
+                         "id":  "pie1",
+                         "name":  "",
+                         "image":  "static/examples/pie1/pie1.jpg",
+                         "semantic_url":  "static/examples/pie1/pie1_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/pie1/crops/reconstruction.html",
+                         "crops_url":  "static/examples/pie1/crops"
+                     },
+                     {
+                         "id":  "pie3",
+                         "name":  "",
+                         "image":  "static/examples/pie3/pie3.jpg",
+                         "semantic_url":  "static/examples/pie3/pie3_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/pie3/crops/reconstruction.html",
+                         "crops_url":  "static/examples/pie3/crops"
+                     },
+                     {
+                         "id":  "line1",
+                         "name":  "",
+                         "image":  "static/examples/line1/line1.jpg",
+                         "semantic_url":  "static/examples/line1/line1_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/line1/crops/reconstruction.html",
+                         "crops_url":  "static/examples/line1/crops"
+                     },
+                     {
+                         "id":  "map",
+                         "name":  "",
+                         "image":  "static/examples/map/map.jpg",
+                         "semantic_url":  "static/examples/map/map_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/map/crops/reconstruction.html",
+                         "crops_url":  "static/examples/map/crops"
+                     },
+                     {
+                         "id":  "proportion1",
+                         "name":  "",
+                         "image":  "static/examples/proportion1/proportion1.jpg",
+                         "semantic_url":  "static/examples/proportion1/proportion1_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/proportion1/crops/reconstruction.html",
+                         "crops_url":  "static/examples/proportion1/crops"
+                     },
+                     {
+                         "id":  "proportion3",
+                         "name":  "",
+                         "image":  "static/examples/proportion3/proportion3.jpg",
+                         "semantic_url":  "static/examples/proportion3/proportion3_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/proportion3/crops/reconstruction.html",
+                         "crops_url":  "static/examples/proportion3/crops"
+                     },
+                     {
+                         "id":  "scatterplot",
+                         "name":  "",
+                         "image":  "static/examples/scatterplot/scatterplot2.jpg",
+                         "semantic_url":  "static/examples/scatterplot/scatterplot2_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/scatterplot/crops/reconstruction.html",
+                         "crops_url":  "static/examples/scatterplot/crops"
+                     },
+                     {
+                         "id":  "timeline1",
+                         "name":  "",
+                         "image":  "static/examples/timeline1/timeline1.jpg",
+                         "semantic_url":  "static/examples/timeline1/timeline1_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/timeline1/crops/reconstruction.html",
+                         "crops_url":  "static/examples/timeline1/crops"
+                     },
+                     {
+                         "id":  "treemap2",
+                         "name":  "",
+                         "image":  "static/examples/treemap2/treemap2.jpg",
+                         "semantic_url":  "static/examples/treemap2/treemap2_semantic_table.json",
+                         "reconstruction_html_url":  "static/examples/treemap2/crops/reconstruction.html",
+                         "crops_url":  "static/examples/treemap2/crops"
+                     }
+                 ]
+}

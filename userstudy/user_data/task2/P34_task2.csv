@@ -1,0 +1,61 @@
+user_id,task_type,item_id,original_id,type,expressiveness,likability,feedback,time_spent
+cf240e95,task2,18,22,autoclip,3,3,,27
+cf240e95,task2,43,11,our,2,2,,14
+cf240e95,task2,19,23,autoclip,1,1,,41
+cf240e95,task2,11,14,autoclip,1,1,,7
+cf240e95,task2,41,2,our,2,2,,25
+cf240e95,task2,39,19,static,1,1,,13
+cf240e95,task2,57,46,our,3,2,,23
+cf240e95,task2,55,40,our,3,4,,40
+cf240e95,task2,44,17,our,3,3,,53
+cf240e95,task2,10,13,autoclip,2,1,,26
+cf240e95,task2,15,18,autoclip,2,1,,10
+cf240e95,task2,24,4,static,1,1,too much useless info,47
+cf240e95,task2,38,18,static,1,1,,17
+cf240e95,task2,16,19,autoclip,3,1,,9
+cf240e95,task2,33,13,static,3,2,,75
+cf240e95,task2,25,5,static,1,1,,38
+cf240e95,task2,30,10,static,1,1,countries are not devided into groups,40
+cf240e95,task2,40,20,static,3,3,,60
+cf240e95,task2,50,30,our,4,3,,18
+cf240e95,task2,29,9,static,2,1,,36
+cf240e95,task2,58,48,our,3,3,,29
+cf240e95,task2,6,7,autoclip,3,3,,29
+cf240e95,task2,21,1,static,2,1,,30
+cf240e95,task2,56,43,our,3,3,,14
+cf240e95,task2,14,17,autoclip,3,3,,16
+cf240e95,task2,2,2,autoclip,3,3,,8
+cf240e95,task2,31,11,static,3,2,,20
+cf240e95,task2,54,39,our,1,1,not the meaning,34
+cf240e95,task2,37,17,static,3,3,,21
+cf240e95,task2,34,14,static,2,3,,31
+cf240e95,task2,52,28,our,3,3,,32
+cf240e95,task2,60,50,our,3,3,,37
+cf240e95,task2,1,1,autoclip,3,3,,11
+cf240e95,task2,3,3,autoclip,2,3,,9
+cf240e95,task2,45,20,our,1,3,,24
+cf240e95,task2,27,7,static,3,3,,29
+cf240e95,task2,26,6,static,1,1,no plateaued,26
+cf240e95,task2,8,11,autoclip,2,1,no contrast,25
+cf240e95,task2,22,2,static,2,3,,15
+cf240e95,task2,9,12,autoclip,2,1,cant tell he is the most prolific novelist,24
+cf240e95,task2,13,16,autoclip,3,1,,9
+cf240e95,task2,42,5,our,3,3,,30
+cf240e95,task2,53,36,our,3,3,,13
+cf240e95,task2,36,16,static,3,3,,29
+cf240e95,task2,20,24,autoclip,2,2,,14
+cf240e95,task2,51,32,our,3,4,,20
+cf240e95,task2,4,5,autoclip,3,3,,16
+cf240e95,task2,35,15,static,3,3,,16
+cf240e95,task2,5,6,autoclip,3,3,,13
+cf240e95,task2,49,29,our,3,3,,19
+cf240e95,task2,59,49,our,3,3,,14
+cf240e95,task2,17,20,autoclip,3,1,no creativeness,18
+cf240e95,task2,48,27,our,3,3,,10
+cf240e95,task2,7,9,autoclip,2,2,title?,18
+cf240e95,task2,23,3,static,3,3,,44
+cf240e95,task2,47,26,our,3,4,,13
+cf240e95,task2,46,22,our,1,2,cant know hitting an all-time low,43
+cf240e95,task2,28,8,static,3,3,,14
+cf240e95,task2,32,12,static,3,3,,44
+cf240e95,task2,12,15,autoclip,3,3,,24

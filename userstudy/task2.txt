@@ -1,0 +1,1 @@
+Detailed rating results of (a) Expressiveness and (b) Likability for each message type, with * indicating p < .05, ** indicating p < .01, and *** indicating p < .001 (Friedman test). Error bars represent 95% confidence intervals.

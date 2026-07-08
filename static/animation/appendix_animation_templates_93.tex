@@ -1,0 +1,130 @@
+% Required packages in the preamble:
+% \usepackage{booktabs}
+% \usepackage{longtable}
+% \usepackage{pdflscape}
+% \usepackage{array}
+% \usepackage{ragged2e}
+
+\appendix
+\section{Complete Animation Template List}
+\label{app:animation_templates}
+
+Table~\ref{tab:complete_animation_templates} lists all 93 animation templates used in our template library. Each template is specified by its visualization type, message type, animated character, animation effect, temporal order, pacing strategy, camera operation, and implementation function.
+
+\begin{landscape}
+\scriptsize
+\setlength{\tabcolsep}{2.8pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{longtable}{p{0.035\linewidth}p{0.075\linewidth}p{0.09\linewidth}p{0.13\linewidth}p{0.19\linewidth}p{0.22\linewidth}p{0.13\linewidth}p{0.075\linewidth}p{0.08\linewidth}}
+\caption{Complete list of the 93 animation templates.}
+\label{tab:complete_animation_templates}\\
+\toprule
+No. & Vis. Type & Message & Character & Effects & Order & Pacing & Camera & Function \\
+\midrule
+\endfirsthead
+\caption[]{Complete list of the 93 animation templates (continued).}\\
+\toprule
+No. & Vis. Type & Message & Character & Effects & Order & Pacing & Camera & Function \\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+1 & bar & Categorization & G(D,I,B) & highlight & parallel(G) & parallel & $\emptyset$ & categorization1 \\
+2 & bar & Categorization & D & color fill & parallel(D) & parallel & $\emptyset$ & categorization2 \\
+3 & bar & Distribution & D,B,G(D,B) & (grow+guide,fade in) & staggering(D$\rightarrow$B),parallel(G) & parallel(staggering) & $\emptyset$ & distribution1 \\
+4 & bar & Distribution & D,I,B,G(D,I,B) & (grow,pop,slide in),$\emptyset$ & staggering(I$\rightarrow$D$\rightarrow$B),parallel(G) & parallel(staggering) & $\emptyset$ & distribution2 \\
+5 & bar & Distribution & D,B,G(D,B) & (grow,fade in) & staggering(D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & distribution3 \\
+6 & bar & Difference & D,I,B,G(D,I,B) & (grow,pop,slide in),$\emptyset$ & staggering(I$\rightarrow$D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & difference2 \\
+7 & bar & Difference & D,B,G(D,B) & (grow,slide in),$\emptyset$ & staggering(D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & difference1 \\
+8 & bar & Difference & D,I,B,G(D,I,B) & (grow,pop,fade in),$\emptyset$ & staggering(I$\rightarrow$D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & difference3 \\
+9 & bar & Extreme & D,I & enlarge,pop & staggering(D$\rightarrow$B) & staggering & zoom in & extreme1 \\
+10 & bar & Extreme & D & enlarge+point & solo(D) & solo & $\emptyset$ & extreme2 \\
+11 & bar & Rank & D,I,B, G(D,I,B) & (grow+highlight,float in,pop),$\emptyset$ & staging(D$\rightarrow$I$\rightarrow$B),layering(G) & layering(staging) & $\emptyset$ & rank3 \\
+12 & bar & Rank & D,I,B,G(D,I,B) & (guide,pop,pop),$\emptyset$ & staggering(D$\rightarrow$I$\rightarrow$B),staging(G) & staging(staggering) & $\emptyset$ & rank1 \\
+13 & bar & Rank & G(D,I,B) & point+explain & staging(G) & staging & zoom in+pan & rank2 \\
+14 & bar & trend & D,B,G(D,B) & (grow,slide in),$\emptyset$ & staggering(D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & trend1 \\
+15 & bar & trend & D,B,G(D,B) & (grow+guide,slide in),$\emptyset$ & staggering(D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & trend2 \\
+16 & bar & value & D,B & highlight,fall in & staging(D$\rightarrow$B) & staging & $\emptyset$ & value2 \\
+17 & bar & value & D & point+enlarge & solo(D) & solo & zoom in & value1 \\
+18 & line & association & D & point & parallel(G) & parallel & $\emptyset$ & association \\
+19 & line & Difference & D & point+explain & staggering(D) & staggering & $\emptyset$ & difference1 \\
+20 & line & Difference & D,I & grow+point,move & parallel(D,I) & parallel & $\emptyset$ & difference2 \\
+21 & line & distribution & D,I & guide+highlight,move & staging(D$\rightarrow$I;zoom in) & staging & zoom in & distribution1 \\
+22 & line & distribution & D,I & highlight,pop & staging(D$\rightarrow$I) & staging & $\emptyset$ & distribution2 \\
+23 & line & extreme & D & grow & solo(D;pan) & solo & pan & extreme1 \\
+24 & line & extreme & D,B & grow,shake & staggering(D$\rightarrow$B;zoom in) & staggering & $\emptyset$ & extreme2 \\
+25 & line & trend & D,B & grow,guide+point & parallel(D,B) & parallel & $\emptyset$ & trend2 \\
+26 & line & trend & D,I & grow,move & parallel(D,I) & parallel & $\emptyset$ & trend1 \\
+27 & line & value & D,I & guide+point,fade in & staggering(D$\rightarrow$I;zoom in) & staggering & zoom in & value1 \\
+28 & line & value & D,I & point,fade in & staggering(D$\rightarrow$I;zoom in) & staggering & zoom in & value2 \\
+29 & line & Difference & G(D,I,B) & guide+fade in & staging(G) & staging & $\emptyset$ & difference3 \\
+30 & map & association & G(D,I,B) & guide & parallel(G) & parallel & $\emptyset$ & association \\
+31 & map & categorization & G(D,I,B) & highlight & parallel(G) & parallel & $\emptyset$ & categorization1 \\
+32 & map & categorization & G(D,I,B) & blink+color fill & parallel(G) & parallel & $\emptyset$ & categorization2 \\
+33 & map & Difference & G(D,I,B) & explain+move & parallel(G) & parallel & $\emptyset$ & Difference \\
+34 & map & distribution & G(D,I,B) & guide+ripple & staging(G) & staging & $\emptyset$ & distribution1 \\
+35 & map & distribution & G(D,I,B) & pulse+highlight & parallel(G;zoom out) & parallel & zoom out & distribution2 \\
+36 & map & distribution & G(D,I,B) & point+guide & staggering(G) & staggering & $\emptyset$ & distribution3 \\
+37 & map & extreme & G(D,I,B) & color fill+enlarge & solo(G) & solo & $\emptyset$ & extreme1 \\
+38 & map & extreme & G(D,I,B) & glow & solo(G;zoom in) & solo & zoom in & extreme2 \\
+39 & map & value & D & point+enlarge & solo(D) & solo & $\emptyset$ & value1 \\
+40 & map & value & D & highlight+guide+blink & solo(D) & solo & $\emptyset$ & value2 \\
+41 & map & rank & G(D,I,B) & move+zoom+highlight & staggering(G) & staggering & zoom in+pan & rank \\
+42 & pie & value & D,B & $\emptyset$,highlight & staging(D$\rightarrow$B) & staging & zoom in & value1 \\
+43 & pie & value & D,I,B & fade in, rotate+pop,fade in & staggering(D$\rightarrow$I$\rightarrow$B) & staggering & $\emptyset$ & value2 \\
+44 & pie & value & D,I,B & highlight,float,slide in & staggering(D$\rightarrow$I$\rightarrow$B) & staggering & $\emptyset$ & value3 \\
+45 & pie & Categorization & G(D,I,B) & color fill & parallel(G) & parallel & $\emptyset$ & categorization1 \\
+46 & pie & Categorization & G(D,I,B) & blink+enlarge & parallel(G) & parallel & $\emptyset$ & categorization2 \\
+47 & pie & Difference & D,B,G(D,B) & (float in,fade in),$\emptyset$ & staggering(D$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & difference1 \\
+48 & pie & Difference & D,I,B,G(D,I,B) & (fade in,enlarge,pop),$\emptyset$ & staggering(I$\rightarrow$D$\rightarrow$B),parallel(G) & parallel(staggering) & $\emptyset$ & difference2 \\
+49 & pie & Extreme & D,I,B & explode,fade in, fade in & staging(D$\rightarrow$I$\rightarrow$B) & staging & $\emptyset$ & extreme1 \\
+50 & pie & Extreme & D,I & highlight,Emphasize & staggering(D$\rightarrow$B) & staggering & zoom in & extreme2 \\
+51 & pie & Extreme & D,I,B & fall in, fall in, appear+shake & staging(D$\rightarrow$I$\rightarrow$B) & staging & $\emptyset$ & extreme3 \\
+52 & pie & Rank & D,B,G(D,I,B) & (fade in,enlarger,fade in),$\emptyset$ & staging(D$\rightarrow$I$\rightarrow$B),layering(G) & layering(staging) & $\emptyset$ & rank1 \\
+53 & pie & Rank & D,I,B,G(D,I,B) & (rotate+fade,pop,fade in),$\emptyset$ & staggering(D$\rightarrow$I$\rightarrow$B),staging(G) & staging(staggering) & $\emptyset$ & rank2 \\
+54 & pie & Rank & D,I,B,G(D,I,B) & (deblurring,enlarger,fade in),$\emptyset$ & parallel(D$\rightarrow$I$\rightarrow$D),staging(G) & staging(parallel) & $\emptyset$ & rank3 \\
+55 & proportion & association & D,I,B,G(D,I,B) & (fade in+guide,fly in, fly in),$\emptyset$ & staging(D$\rightarrow$I$\rightarrow$B),staging(G;pan) & staging(staging) & pan & association \\
+56 & proportion & Categorization & D,I,B,G(D,I,B) & (point,fade in,fade in),$\emptyset$ & staging(D$\rightarrow$I$\rightarrow$B),staging(G) & staging(staging) & $\emptyset$ & categorization1 \\
+57 & proportion & Categorization & D,I,B,G(D,I,B) & (pop+ripple,pop,fade in),$\emptyset$ & staging(D$\rightarrow$I$\rightarrow$B),staging(G) & staging(staging) & $\emptyset$ & categorization2 \\
+58 & proportion & Categorization & G(D,I,B) & color keep & parallel(G) & parallel & $\emptyset$ & categorization3 \\
+59 & proportion & Difference & B,I,G(D,B) & (pop,slide in),$\emptyset$ & staging(I$\rightarrow$B),parallel(G) & parallel(staging) & $\emptyset$ & difference1 \\
+60 & proportion & Difference & D,I,B,G(D,I,B) & (enlarge,pop,pop),$\emptyset$ & staggering(D$\rightarrow$I$\rightarrow$B),staging(G) & staging(staggering) & $\emptyset$ & difference2 \\
+61 & proportion & Extreme & D,I,B,G(D,I,B) & (grow,pop,pop),keep size & staggering(D$\rightarrow$I$\rightarrow$B),parallel(G) & paralle(staggering) & $\emptyset$ & extreme1 \\
+62 & proportion & Extreme & D,I,B,G(D,I,B) & (grow,pop+move,pop),shrink+fade out & staggering(I$\rightarrow$D$\rightarrow$B),parallel(G) & paralle(staggering) & $\emptyset$ & extreme2 \\
+63 & proportion & Outlier & G(D,I,B) & pulse & solo(G;pan) & solo & pan & outlier \\
+64 & proportion & Rank & G(D,I,B) & color fill & layering(G) & layering & $\emptyset$ & rank1 \\
+65 & proportion & Rank & I,B,G(D,I,B) & (shrink,fade in),$\emptyset$ & staggering(I$\rightarrow$B),layering(G) & layering(stagging) & $\emptyset$ & rank2 \\
+66 & proportion & value & D,I,B & pulse,float in,float in & staggering(D$\rightarrow$I$\rightarrow$B) & staggering & $\emptyset$ & value1 \\
+67 & proportion & value & I,B & point,guide & staggering(I$\rightarrow$B;zoom in) & staggering & zoom in & value2 \\
+68 & proportion & value & G(D,I,B) & unmask & solo(G) & solo & $\emptyset$ & value3 \\
+69 & proportion & value & D,I,B & clip rotate,pop,pop & staggering(D$\rightarrow$I$\rightarrow$B) & staggering & $\emptyset$ & value4 \\
+70 & scatter & Association & D,I,B,G(D,I,B) & (pop,fade in,fade in),guide & staggering(D$\rightarrow$I$\rightarrow$B),staggering & staggering(staggering) & $\emptyset$ & association \\
+71 & scatter & Rank & G(D,I,B) & pop & staging(G) & staging & $\emptyset$ & rank \\
+72 & scatter & Trend & G(D,I,B) & guide & solo(G) & solo & $\emptyset$ & trend1 \\
+73 & scatter & Value & G(D,I,B) & glow+guide & solo(G) & solo & $\emptyset$ & value1 \\
+74 & scatter & Value & G(D,I,B) & guide+highlight & solo(G) & solo & $\emptyset$ & value2 \\
+75 & scatter & Outlier & G(D,I,B) & point+ripple & solo(G) & solo & $\emptyset$ & outlier1 \\
+76 & scatter & Categorization & G(D,I,B) & highlight & parallel(G) & parallel & $\emptyset$ & categorization1 \\
+77 & scatter & Categorization & G(D,I,B) & blink & parallel(G) & parallel & $\emptyset$ & categorization2 \\
+78 & timeline & Categorization & G(I,B) & keep & parallel(G) & parallel & $\emptyset$ & categorization1 \\
+79 & timeline & Categorization & G(I,B) & highlight & parallel(D) & parallel & $\emptyset$ & categorization2 \\
+80 & timeline & value & I,B & pop,pop & staging(I$\rightarrow$B;zoom in) & staging & zoom in & value1 \\
+81 & timeline & value & I,B & move, fade in & staging(I$\rightarrow$B;zoom in) & staging & zoom in & value2 \\
+82 & timeline & value & G(I,B) & color fill & solo(G;zoom in) & staging & zoom in & value3 \\
+83 & treemap & Categorization & G(D,I,B) & highlight & parallel(G) & parallel & $\emptyset$ & categorization1 \\
+84 & treemap & Categorization & G(D,I,B) & blink & parallel(D) & parallel & $\emptyset$ & categorization2 \\
+85 & treemap & Categorization & G(D,I,B) & point+guide+highlight & parallel(D) & parallel & $\emptyset$ & categorization3 \\
+86 & treemap & Difference & G(D,I,B) & highlight & staggering(D) & staggering & $\emptyset$ & difference1 \\
+87 & treemap & Extreme & G(D,I,B) & color fill & solo(G) & solo & $\emptyset$ & extreme1 \\
+88 & treemap & Extreme & G(D,I,B) & keep+move & solo(G) & solo & $\emptyset$ & extreme2 \\
+89 & treemap & Extreme & G(D,I,B) & color fill & solo(G) & solo & $\emptyset$ & extreme3 \\
+90 & treemap & Rank & D,I,B,G(D,I,B) & (pop,fade in,fade in),$\emptyset$ & staggering(D$\rightarrow$I$\rightarrow$B),staggering(G) & solo & $\emptyset$ & rank \\
+91 & treemap & value & G(D,I,B) & point+guide & solo(G) & solo & $\emptyset$ & value1 \\
+92 & treemap & value & G(D,I,B) & blink & solo(G) & solo & $\emptyset$ & value2 \\
+93 & treemap & Distribution & D,I,B,G(D,I,B) & (pop,pop,pop),$\emptyset$ & staggering(D$\rightarrow$I$\rightarrow$B),staggering(G) & staggering(staggering) & $\emptyset$ & distribution1 \\
+\end{longtable}
+\normalsize
+\end{landscape}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reconstruction</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MorphSVGPlugin.min.js" ></script>
+<style>
+  body { margin:0; }
+  .canvas { position: relative; width:645px; height:600px; }
+  .element { position: absolute; }
+  img { display: block; }
+</style>
+</head>
+<body>
+<div class="canvas" id="canvas">
+  <img id="bg-img" src="/static/crops/background.png" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:0;">
+  <div class="element" id="visual_G1" data-group="G1" data-type="visual" data-segmentation="[[[154, 105], [153, 106], [151, 106], [149, 108], [148, 108], [146, 110], [146, 111], [145, 112], [145, 113], [144, 114], [144, 124], [145, 125], [145, 127], [146, 128], [147, 128], [150, 131], [152, 131], [153, 132], [161, 132], [162, 131], [163, 131], [164, 130], [165, 130], [168, 127], [168, 126], [169, 125], [169, 124], [170, 123], [170, 113], [169, 112], [169, 111], [165, 107], [164, 107], [163, 106], [161, 106], [160, 105]]]" style="position:absolute; left:144px; top:105px; width:26px; height:27px; z-index:10;">
+  <img src="/static/crops/visual_G1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G1" data-group="G1" data-type="text" data-segmentation="[[[174, 117], [174, 123], [203, 123], [204, 122], [204, 121], [205, 120], [204, 119], [204, 118], [203, 118], [202, 117], [182, 117], [181, 116], [175, 116]]]" style="position:absolute; left:174px; top:116px; width:31px; height:7px; z-index:10;">
+  <img src="/static/crops/text_G1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G2" data-group="G2" data-type="visual" data-segmentation="[[[193, 420], [192, 421], [191, 421], [190, 422], [189, 422], [187, 424], [187, 425], [185, 427], [185, 429], [184, 430], [184, 434], [185, 435], [185, 438], [186, 439], [186, 440], [187, 441], [187, 442], [189, 444], [190, 444], [191, 445], [192, 445], [193, 446], [203, 446], [205, 444], [206, 444], [209, 441], [209, 440], [210, 439], [210, 438], [211, 437], [211, 429], [210, 428], [210, 427], [209, 426], [209, 425], [207, 423], [206, 423], [204, 421], [203, 421], [202, 420]]]" style="position:absolute; left:184px; top:420px; width:27px; height:26px; z-index:10;">
+  <img src="/static/crops/visual_G2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G2" data-group="G2" data-type="text" data-segmentation="[[[214, 432], [214, 434], [215, 435], [215, 437], [243, 437], [244, 436], [244, 432], [226, 432], [225, 431], [219, 431], [218, 430], [217, 430], [216, 431], [215, 431]]]" style="position:absolute; left:214px; top:430px; width:30px; height:7px; z-index:10;">
+  <img src="/static/crops/text_G2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G3" data-group="G3" data-type="visual" data-segmentation="[[[312, 431], [309, 434], [309, 435], [308, 436], [308, 437], [307, 438], [307, 439], [306, 440], [306, 446], [307, 447], [307, 448], [309, 450], [309, 451], [311, 453], [312, 453], [313, 454], [314, 454], [315, 455], [324, 455], [325, 454], [326, 454], [331, 449], [331, 448], [333, 446], [333, 440], [332, 439], [332, 438], [331, 437], [331, 436], [330, 435], [330, 434], [329, 433], [328, 433], [326, 431], [325, 431], [324, 430], [323, 430], [322, 429], [318, 429], [317, 430], [315, 430], [314, 431]]]" style="position:absolute; left:306px; top:429px; width:27px; height:26px; z-index:10;">
+  <img src="/static/crops/visual_G3.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G3" data-group="G3" data-type="text" data-segmentation="[[[302, 420], [302, 425], [303, 426], [318, 426], [319, 427], [325, 427], [326, 426], [336, 426], [337, 425], [337, 421], [336, 420], [332, 420], [331, 421], [330, 420], [327, 420], [326, 421], [325, 421], [324, 420], [307, 420], [306, 419], [304, 419], [303, 420]]]" style="position:absolute; left:302px; top:419px; width:35px; height:8px; z-index:10;">
+  <img src="/static/crops/text_G3.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G4" data-group="G4" data-type="visual" data-segmentation="[[[385, 446], [385, 447], [384, 448], [383, 448], [382, 449], [382, 450], [381, 451], [381, 452], [380, 453], [380, 461], [381, 462], [381, 464], [383, 466], [383, 467], [384, 468], [385, 468], [386, 469], [387, 469], [388, 470], [393, 470], [394, 469], [395, 469], [396, 468], [400, 468], [401, 467], [402, 467], [403, 466], [403, 465], [404, 464], [404, 463], [405, 462], [405, 459], [406, 458], [406, 454], [405, 453], [405, 451], [404, 450], [404, 449], [403, 448], [402, 448], [400, 446], [399, 446], [398, 445], [396, 445], [395, 444], [389, 444], [388, 445], [387, 445], [386, 446]]]" style="position:absolute; left:380px; top:444px; width:26px; height:26px; z-index:10;">
+  <img src="/static/crops/visual_G4.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G4" data-group="G4" data-type="text" data-segmentation="[[[379, 436], [379, 439], [380, 440], [380, 441], [386, 441], [387, 442], [392, 442], [393, 443], [396, 443], [397, 442], [400, 442], [401, 441], [402, 441], [403, 442], [404, 442], [406, 440], [406, 438], [404, 436], [387, 436], [386, 435], [383, 435], [382, 434], [381, 434]]]" style="position:absolute; left:379px; top:434px; width:27px; height:9px; z-index:10;">
+  <img src="/static/crops/text_G4.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G5" data-group="G5" data-type="visual" data-segmentation="[[[399, 468], [398, 469], [396, 469], [394, 471], [393, 471], [389, 475], [389, 477], [388, 478], [388, 485], [389, 486], [389, 488], [391, 490], [391, 491], [392, 492], [393, 492], [395, 494], [396, 494], [397, 495], [404, 495], [405, 494], [406, 494], [407, 493], [408, 493], [411, 490], [411, 489], [412, 488], [412, 487], [413, 486], [413, 485], [414, 484], [414, 479], [413, 478], [413, 477], [412, 476], [412, 474], [409, 471], [408, 471], [407, 470], [406, 470], [405, 469], [400, 469]]]" style="position:absolute; left:388px; top:468px; width:26px; height:27px; z-index:10;">
+  <img src="/static/crops/visual_G5.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G5" data-group="G5" data-type="text" data-segmentation="[[[358, 482], [358, 485], [359, 486], [383, 486], [384, 485], [384, 481], [383, 480], [371, 480], [370, 479], [360, 479], [359, 480], [359, 481]]]" style="position:absolute; left:358px; top:479px; width:26px; height:7px; z-index:10;">
+  <img src="/static/crops/text_G5.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G6" data-group="G6" data-type="visual" data-segmentation="[[[437, 460], [436, 461], [435, 461], [433, 463], [432, 463], [431, 464], [431, 465], [430, 466], [430, 467], [429, 468], [429, 469], [428, 470], [428, 476], [429, 477], [429, 478], [431, 480], [431, 481], [434, 484], [435, 484], [436, 485], [438, 485], [439, 486], [443, 486], [444, 485], [446, 485], [447, 484], [448, 484], [449, 483], [450, 483], [450, 482], [453, 479], [453, 478], [454, 477], [454, 476], [455, 475], [455, 470], [454, 469], [454, 468], [453, 467], [453, 466], [449, 462], [448, 462], [447, 461], [446, 461], [445, 460]]]" style="position:absolute; left:428px; top:460px; width:27px; height:26px; z-index:10;">
+  <img src="/static/crops/visual_G6.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G6" data-group="G6" data-type="text" data-segmentation="[[[433, 450], [433, 456], [434, 457], [438, 457], [439, 458], [446, 458], [447, 457], [449, 457], [449, 456], [450, 455], [450, 453], [448, 451], [442, 451], [441, 450]]]" style="position:absolute; left:433px; top:450px; width:17px; height:8px; z-index:10;">
+  <img src="/static/crops/text_G6.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G7" data-group="G7" data-type="visual" data-segmentation="[[[479, 472], [478, 473], [476, 473], [475, 474], [474, 474], [471, 477], [471, 478], [470, 479], [470, 481], [469, 482], [469, 488], [470, 489], [470, 490], [471, 491], [471, 492], [475, 496], [476, 496], [477, 497], [480, 497], [481, 498], [483, 498], [484, 497], [487, 497], [489, 495], [490, 495], [493, 492], [493, 491], [494, 490], [494, 480], [493, 479], [493, 478], [491, 476], [491, 475], [490, 475], [488, 473], [486, 473], [485, 472]]]" style="position:absolute; left:469px; top:472px; width:25px; height:26px; z-index:10;">
+  <img src="/static/crops/visual_G7.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G7" data-group="G7" data-type="text" data-segmentation="[[[470, 462], [470, 466], [471, 467], [471, 468], [472, 468], [473, 469], [493, 469], [494, 468], [494, 464], [493, 463], [488, 463], [487, 462], [478, 462], [477, 461], [476, 461], [475, 462]]]" style="position:absolute; left:470px; top:461px; width:24px; height:8px; z-index:10;">
+  <img src="/static/crops/text_G7.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G8" data-group="G8" data-type="visual" data-segmentation="[[[514, 456], [512, 458], [512, 459], [510, 461], [510, 470], [511, 471], [511, 473], [512, 474], [512, 475], [514, 477], [515, 477], [516, 478], [517, 478], [518, 479], [521, 479], [522, 480], [524, 480], [525, 479], [528, 479], [530, 477], [531, 477], [533, 475], [533, 474], [535, 472], [535, 460], [534, 460], [533, 459], [533, 458], [531, 456], [530, 456], [529, 455], [527, 455], [526, 454], [519, 454], [518, 455], [516, 455], [515, 456]]]" style="position:absolute; left:510px; top:454px; width:25px; height:26px; z-index:10;">
+  <img src="/static/crops/visual_G8.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G8" data-group="G8" data-type="text" data-segmentation="[[[509, 444], [509, 449], [510, 450], [515, 450], [516, 451], [521, 451], [522, 450], [523, 450], [524, 451], [530, 451], [531, 450], [535, 450], [536, 449], [536, 446], [535, 445], [525, 445], [524, 444], [520, 444], [519, 445], [516, 445], [515, 444]]]" style="position:absolute; left:509px; top:444px; width:27px; height:7px; z-index:10;">
+  <img src="/static/crops/text_G8.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y1" data-group="Y1" data-type="text" data-segmentation="[[[109, 493], [107, 495], [107, 499], [109, 501], [110, 500], [111, 500], [112, 499], [112, 495], [111, 494], [110, 494]]]" style="position:absolute; left:107px; top:493px; width:5px; height:8px; z-index:10;">
+  <img src="/static/crops/text_Y1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y2" data-group="Y2" data-type="text" data-segmentation="[[[108, 433], [108, 434], [107, 435], [107, 439], [108, 440], [111, 440], [112, 439], [112, 434], [111, 433]]]" style="position:absolute; left:107px; top:433px; width:5px; height:7px; z-index:10;">
+  <img src="/static/crops/text_Y2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y3" data-group="Y3" data-type="text" data-segmentation="[[[109, 373], [109, 374], [108, 375], [108, 378], [109, 379], [111, 379], [112, 378], [112, 375], [111, 374], [111, 373]]]" style="position:absolute; left:108px; top:373px; width:4px; height:6px; z-index:10;">
+  <img src="/static/crops/text_Y3.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y4" data-group="Y4" data-type="text" data-segmentation="[[[109, 312], [107, 314], [107, 317], [108, 318], [108, 319], [111, 319], [112, 318], [112, 314], [111, 313], [110, 313]]]" style="position:absolute; left:107px; top:312px; width:5px; height:7px; z-index:10;">
+  <img src="/static/crops/text_Y4.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y5" data-group="Y5" data-type="text" data-segmentation="[[[109, 251], [107, 253], [107, 257], [109, 259], [110, 258], [112, 258], [112, 253], [111, 252], [110, 252]]]" style="position:absolute; left:107px; top:251px; width:5px; height:8px; z-index:10;">
+  <img src="/static/crops/text_Y5.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y6" data-group="Y6" data-type="text" data-segmentation="[[[112, 192], [111, 192], [110, 191], [108, 191], [107, 192], [104, 192], [104, 197], [105, 198], [111, 198], [112, 197]]]" style="position:absolute; left:104px; top:191px; width:8px; height:7px; z-index:10;">
+  <img src="/static/crops/text_Y6.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_Y7" data-group="Y7" data-type="text" data-segmentation="[[[104, 132], [104, 137], [105, 138], [111, 138], [112, 137], [112, 132], [111, 131], [106, 131], [105, 132]]]" style="position:absolute; left:104px; top:131px; width:8px; height:7px; z-index:10;">
+  <img src="/static/crops/text_Y7.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X1" data-group="X1" data-type="text" data-segmentation="[[[150, 534], [150, 535], [151, 536], [153, 536], [154, 537], [157, 537], [158, 536], [161, 536], [162, 537], [164, 535], [164, 530], [163, 530], [162, 529], [152, 529], [151, 530], [151, 533]]]" style="position:absolute; left:150px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X2" data-group="X2" data-type="text" data-segmentation="[[[191, 531], [191, 535], [192, 536], [201, 536], [202, 537], [203, 536], [204, 536], [205, 535], [205, 531], [203, 529], [192, 529], [192, 530]]]" style="position:absolute; left:191px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X3" data-group="X3" data-type="text" data-segmentation="[[[232, 532], [232, 535], [233, 535], [234, 536], [241, 536], [242, 537], [243, 537], [244, 536], [245, 536], [245, 534], [246, 533], [246, 532], [245, 531], [245, 530], [244, 529], [236, 529], [235, 530], [233, 530], [233, 531]]]" style="position:absolute; left:232px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X3.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X4" data-group="X4" data-type="text" data-segmentation="[[[272, 533], [272, 535], [273, 536], [275, 536], [276, 537], [278, 537], [279, 536], [281, 536], [282, 537], [284, 537], [286, 535], [286, 530], [285, 529], [275, 529], [274, 530], [273, 530], [273, 532]]]" style="position:absolute; left:272px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X4.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X5" data-group="X5" data-type="text" data-segmentation="[[[313, 531], [313, 535], [314, 536], [322, 536], [323, 537], [324, 537], [325, 536], [326, 536], [326, 535], [327, 534], [327, 532], [326, 531], [326, 530], [325, 529], [315, 529]]]" style="position:absolute; left:313px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X5.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X6" data-group="X6" data-type="text" data-segmentation="[[[354, 530], [354, 535], [355, 536], [361, 536], [362, 537], [365, 537], [366, 536], [367, 536], [367, 534], [368, 533], [368, 532], [367, 531], [367, 530], [366, 529], [355, 529]]]" style="position:absolute; left:354px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X6.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X7" data-group="X7" data-type="text" data-segmentation="[[[394, 532], [394, 534], [395, 535], [395, 536], [402, 536], [403, 537], [405, 537], [406, 536], [407, 536], [408, 535], [408, 531], [406, 529], [396, 529], [395, 530], [395, 531]]]" style="position:absolute; left:394px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X7.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X8" data-group="X8" data-type="text" data-segmentation="[[[435, 530], [435, 536], [436, 536], [437, 537], [447, 537], [448, 536], [448, 535], [449, 534], [449, 532], [448, 531], [448, 530], [447, 529], [436, 529]]]" style="position:absolute; left:435px; top:529px; width:14px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X8.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X9" data-group="X9" data-type="text" data-segmentation="[[[474, 531], [474, 535], [475, 536], [477, 536], [478, 537], [489, 537], [490, 536], [492, 536], [493, 535], [493, 531], [492, 530], [492, 529], [479, 529], [477, 531]]]" style="position:absolute; left:474px; top:529px; width:19px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X9.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_X10" data-group="X10" data-type="text" data-segmentation="[[[514, 530], [514, 535], [515, 536], [516, 536], [517, 537], [520, 537], [521, 536], [532, 536], [533, 535], [533, 534], [534, 533], [533, 532], [533, 530], [532, 529], [521, 529], [520, 530]]]" style="position:absolute; left:514px; top:529px; width:20px; height:8px; z-index:10;">
+  <img src="/static/crops/text_X10.png" style="width:100%; height:100%;">
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+user_id,task_type,item_id,original_id,type,expressiveness,likability,feedback,time_spent
+0d2a2e3c,task2,49,29,our,5,3,I hope to display all the information at once,77
+0d2a2e3c,task2,11,14,autoclip,4,3,"1. Perhaps I need the labels for the bar chart on the left.
+2. I hope to display all the information at once, and then highlight the key information",111
+0d2a2e3c,task2,51,32,our,5,1,The total amount of chart information decreases over time,68
+0d2a2e3c,task2,34,14,static,5,5,,18
+0d2a2e3c,task2,14,17,autoclip,4,5,Displaying key values in the chart might make it clearer,42
+0d2a2e3c,task2,33,13,static,5,5,,6
+0d2a2e3c,task2,17,20,autoclip,3,1,info density is too low ,54
+0d2a2e3c,task2,50,30,our,5,4,,19
+0d2a2e3c,task2,26,6,static,5,5, peak can be labeled   to highlight key info,54
+0d2a2e3c,task2,36,16,static,5,5,,32
+0d2a2e3c,task2,9,12,autoclip,5,5,,18
+0d2a2e3c,task2,13,16,autoclip,5,5,,15
+0d2a2e3c,task2,28,8,static,5,5,,11
+0d2a2e3c,task2,27,7,static,5,5,,2
+0d2a2e3c,task2,3,3,autoclip,5,5,,6
+0d2a2e3c,task2,38,18,static,5,5,,52
+0d2a2e3c,task2,47,26,our,5,5,,11
+0d2a2e3c,task2,45,20,our,5,5,,17
+0d2a2e3c,task2,18,22,autoclip,4,5,,18
+0d2a2e3c,task2,21,1,static,3,4," circle is not obvious enough
+fails to reflect the percentages",87
+0d2a2e3c,task2,48,27,our,5,5,,7
+0d2a2e3c,task2,42,5,our,5,5,,30
+0d2a2e3c,task2,7,9,autoclip,5,5,,5
+0d2a2e3c,task2,30,10,static,5,5,,45
+0d2a2e3c,task2,1,1,autoclip,5,5,,9
+0d2a2e3c,task2,41,2,our,5,5,,9
+0d2a2e3c,task2,58,48,our,5,5,,30
+0d2a2e3c,task2,5,6,autoclip,5,5,,20
+0d2a2e3c,task2,6,7,autoclip,5,5,,5
+0d2a2e3c,task2,16,19,autoclip,5,5,,14
+0d2a2e3c,task2,23,3,static,5,5,,16
+0d2a2e3c,task2,53,36,our,5,5,,8
+0d2a2e3c,task2,19,23,autoclip,5,5,,5
+0d2a2e3c,task2,29,9,static,5,5,,9
+0d2a2e3c,task2,54,39,our,5,5,,10
+0d2a2e3c,task2,22,2,static,5,5,,3
+0d2a2e3c,task2,39,19,static,5,5,,25
+0d2a2e3c,task2,57,46,our,5,4,,14
+0d2a2e3c,task2,32,12,static,5,5,,7
+0d2a2e3c,task2,60,50,our,5,5,,11
+0d2a2e3c,task2,20,24,autoclip,5,5,,13
+0d2a2e3c,task2,52,28,our,4,5,,11
+0d2a2e3c,task2,8,11,autoclip,4,4,,20
+0d2a2e3c,task2,43,11,our,5,3,,14
+0d2a2e3c,task2,31,11,static,2,1,,97
+0d2a2e3c,task2,56,43,our,5,5,,8
+0d2a2e3c,task2,44,17,our,5,5,animation too fast,63
+0d2a2e3c,task2,55,40,our,2,5,,40
+0d2a2e3c,task2,46,22,our,5,5,,6
+0d2a2e3c,task2,2,2,autoclip,5,5,,3
+0d2a2e3c,task2,40,20,static,4,5,,27
+0d2a2e3c,task2,24,4,static,5,5,,7
+0d2a2e3c,task2,12,15,autoclip,5,5,,9
+0d2a2e3c,task2,37,17,static,5,5,,12
+0d2a2e3c,task2,15,18,autoclip,5,5,,7
+0d2a2e3c,task2,59,49,our,5,5,,8
+0d2a2e3c,task2,4,5,autoclip,5,5,,9
+0d2a2e3c,task2,35,15,static,5,5,,11
+0d2a2e3c,task2,10,13,autoclip,5,5,,7
+0d2a2e3c,task2,25,5,static,5,5,,40

@@ -1,0 +1,1 @@
+Detailed results of (a) Accuracy and (b) Response Time for static and animated infographic charts, with * indicating p < .05, ** indicating p < .01, and *** indicating p < .001 (Wilcoxon signed-rank test).

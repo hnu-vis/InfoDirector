@@ -1,0 +1,61 @@
+user_id,task_type,item_id,original_id,type,expressiveness,likability,feedback,time_spent
+85532116,task2,20,24,autoclip,4,2,,17
+85532116,task2,39,19,static,3,3,,26
+85532116,task2,56,43,our,4,2,,12
+85532116,task2,38,18,static,4,4,"Size ranking is clear, logos are distinctive and easy to identify.",130
+85532116,task2,19,23,autoclip,4,2,,12
+85532116,task2,13,16,autoclip,3,3,,32
+85532116,task2,4,5,autoclip,4,3,,19
+85532116,task2,41,2,our,5,4,"Size and color depth indicate order, top 2 highlighted clearly.",87
+85532116,task2,57,46,our,3,2,,41
+85532116,task2,60,50,our,4,3,,19
+85532116,task2,2,2,autoclip,4,2,,9
+85532116,task2,54,39,our,5,5,,10
+85532116,task2,25,5,static,5,4,,19
+85532116,task2,59,49,our,4,2,Data differences are clear but visualization is too simple.,59
+85532116,task2,24,4,static,5,4,,10
+85532116,task2,27,7,static,4,3,,6
+85532116,task2,34,14,static,5,3,,10
+85532116,task2,42,5,our,4,3,Balloon animation flashes too fast to see clearly.,45
+85532116,task2,22,2,static,5,3,,11
+85532116,task2,47,26,our,5,4,,9
+85532116,task2,48,27,our,5,4,,10
+85532116,task2,35,15,static,5,5,"Comparison is clear, can quickly find differences, fun design.",60
+85532116,task2,36,16,static,5,3,,12
+85532116,task2,15,18,autoclip,1,1,,13
+85532116,task2,9,12,autoclip,1,1,,7
+85532116,task2,52,28,our,4,4,,24
+85532116,task2,31,11,static,3,2,,15
+85532116,task2,1,1,autoclip,2,1,,10
+85532116,task2,43,11,our,4,3,,15
+85532116,task2,53,36,our,5,4,,7
+85532116,task2,17,20,autoclip,1,1,,8
+85532116,task2,28,8,static,4,3,,12
+85532116,task2,50,30,our,4,4,,20
+85532116,task2,23,3,static,4,4,,11
+85532116,task2,49,29,our,5,4,,7
+85532116,task2,8,11,autoclip,1,1,,8
+85532116,task2,29,9,static,5,5,,13
+85532116,task2,6,7,autoclip,2,1,,19
+85532116,task2,10,13,autoclip,1,1,,5
+85532116,task2,46,22,our,4,4,,12
+85532116,task2,7,9,autoclip,1,1,,13
+85532116,task2,11,14,autoclip,1,1,,9
+85532116,task2,37,17,static,4,4,,12
+85532116,task2,5,6,autoclip,2,1,,8
+85532116,task2,26,6,static,4,4,,9
+85532116,task2,14,17,autoclip,1,1,,7
+85532116,task2,21,1,static,5,4,,6
+85532116,task2,16,19,autoclip,1,1,,6
+85532116,task2,45,20,our,4,4,,9
+85532116,task2,12,15,autoclip,1,1,,10
+85532116,task2,30,10,static,5,5,,9
+85532116,task2,3,3,autoclip,2,1,,4
+85532116,task2,40,20,static,5,5,,7
+85532116,task2,44,17,our,5,5,,7
+85532116,task2,33,13,static,5,4,,7
+85532116,task2,58,48,our,5,3,,15
+85532116,task2,51,32,our,5,4,,20
+85532116,task2,18,22,autoclip,2,1,,8
+85532116,task2,32,12,static,5,3,,6
+85532116,task2,55,40,our,5,5,,12

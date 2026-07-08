@@ -1,0 +1,62 @@
+user_id,task_type,item_id,original_id,type,expressiveness,likability,feedback,time_spent
+c2c908ae,task2,23,3,static,4,4,"I can see the diffrence between the north and south. But, it took me some time to find the specific age group, like which represents 30-31 years old.",262
+c2c908ae,task2,21,1,static,2,1,"Couldn't tell if Europe claims half of the top ten.
+Too golden for me.",86
+c2c908ae,task2,32,12,static,3,3,The growth of global stock market capitalization is not highlighted at all. But the rank is clear.,133
+c2c908ae,task2,1,1,autoclip,3,4,Absence of info like US election and  2020/11/5.,88
+c2c908ae,task2,57,46,our,5,5,,38
+c2c908ae,task2,17,20,autoclip,3,4,,29
+c2c908ae,task2,12,15,autoclip,5,5,,25
+c2c908ae,task2,9,12,autoclip,3,3,I expect more visual elements like an icon of books.,64
+c2c908ae,task2,2,2,autoclip,4,5,,28
+c2c908ae,task2,26,6,static,5,4,,158
+c2c908ae,task2,46,22,our,3,5,Couldn't see all-time low.,65
+c2c908ae,task2,22,2,static,5,2,Visual styles is kind of outdated.,175
+c2c908ae,task2,45,20,our,3,3,,156
+c2c908ae,task2,35,15,static,5,5,,25
+c2c908ae,task2,15,18,autoclip,3,2,,40
+c2c908ae,task2,38,18,static,2,4,ChatGPT is too small.,62
+c2c908ae,task2,33,13,static,5,5,,33
+c2c908ae,task2,20,24,autoclip,2,4,,23
+c2c908ae,task2,36,16,static,5,4,,106
+c2c908ae,task2,16,19,autoclip,4,4,,23
+c2c908ae,task2,59,49,our,5,3,,33
+c2c908ae,task2,43,11,our,5,5,,41
+c2c908ae,task2,14,17,autoclip,5,4,,40
+c2c908ae,task2,11,14,autoclip,2,4,,48
+c2c908ae,task2,10,13,autoclip,3,3,,68
+c2c908ae,task2,19,23,autoclip,3,4,,11
+c2c908ae,task2,50,30,our,5,5,,43
+c2c908ae,task2,44,17,our,3,2,Too much unecessary motion.,84
+c2c908ae,task2,54,39,our,5,3,"Like the creative idea of suitcases, but it is not easy for my eyes.",116
+c2c908ae,task2,53,36,our,5,4,,57
+c2c908ae,task2,42,5,our,4,4,,53
+c2c908ae,task2,34,14,static,3,4,,72
+c2c908ae,task2,41,2,our,4,3,,135
+c2c908ae,task2,28,8,static,3,2,,46
+c2c908ae,task2,37,17,static,4,3,,34
+c2c908ae,task2,6,7,autoclip,5,3,,20
+c2c908ae,task2,8,11,autoclip,1,3,I got the wrong idea that 43% of fiction books are bestsellers.,108
+c2c908ae,task2,55,40,our,3,3,,107
+c2c908ae,task2,47,26,our,5,5,,24
+c2c908ae,task2,48,27,our,4,4,,31
+c2c908ae,task2,56,43,our,4,3,,68
+c2c908ae,task2,29,9,static,4,3,,45
+c2c908ae,task2,27,7,static,5,4,,47
+c2c908ae,task2,51,32,our,5,5,,18
+c2c908ae,task2,25,5,static,3,2,Not showing the 25-fold part.,106
+c2c908ae,task2,30,10,static,4,4,,48
+c2c908ae,task2,40,20,static,3,3,,98
+c2c908ae,task2,4,5,autoclip,4,3,,18
+c2c908ae,task2,60,50,our,5,3,,81
+c2c908ae,task2,52,28,our,5,5,,12
+c2c908ae,task2,18,22,autoclip,5,4,,36
+c2c908ae,task2,24,4,static,4,4,,79
+c2c908ae,task2,5,6,autoclip,5,3,,17
+c2c908ae,task2,31,11,static,3,2,,90
+c2c908ae,task2,13,16,autoclip,4,3,,39
+c2c908ae,task2,58,48,our,4,3,,52
+c2c908ae,task2,39,19,static,3,3,,46
+c2c908ae,task2,7,9,autoclip,4,4,,11
+c2c908ae,task2,49,29,our,5,5,,15
+c2c908ae,task2,3,3,autoclip,4,4,,8

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reconstruction</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MorphSVGPlugin.min.js" ></script>
+<style>
+  body { margin:0; }
+  .canvas { position: relative; width:469px; height:569px; }
+  .element { position: absolute; }
+  img { display: block; }
+</style>
+</head>
+<body>
+<div class="canvas" id="canvas">
+  <img id="bg-img" src="/static/crops/background.png" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:0;">
+  <div class="element" id="data_graphic_G1" data-group="G1" data-type="data_graphic" data-segmentation="[[[241, 54], [238, 57], [238, 298], [231, 468], [231, 512], [233, 513], [270, 511], [293, 506], [321, 497], [364, 474], [395, 449], [423, 417], [439, 391], [448, 372], [457, 347], [462, 326], [466, 290], [464, 251], [457, 220], [450, 199], [428, 157], [407, 130], [382, 106], [366, 94], [330, 74], [289, 60], [269, 56]]]" style="position:absolute; left:231px; top:54px; width:235px; height:459px; z-index:10;">
+  <img src="/static/crops/data_graphic_G1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G1" data-group="G1" data-type="visual" data-segmentation="[[[301, 319], [302, 319], [304, 321], [305, 321], [306, 322], [310, 322], [311, 323], [319, 323], [320, 322], [321, 322], [322, 321], [322, 320], [323, 319], [323, 315], [324, 314], [324, 310], [325, 309], [325, 305], [326, 304], [326, 302], [327, 301], [327, 299], [330, 296], [341, 296], [342, 295], [345, 295], [348, 292], [348, 291], [349, 290], [349, 289], [350, 288], [351, 288], [352, 287], [371, 287], [372, 286], [374, 286], [376, 284], [377, 284], [379, 282], [379, 280], [380, 279], [380, 273], [379, 272], [378, 272], [377, 271], [371, 271], [370, 272], [321, 272], [320, 271], [314, 271], [313, 272], [312, 272], [311, 273], [310, 273], [309, 274], [308, 274], [308, 275], [307, 276], [307, 277], [306, 278], [306, 279], [305, 280], [305, 281], [301, 285], [301, 286], [302, 287], [303, 287], [306, 290], [306, 291], [307, 292], [306, 293], [306, 299], [305, 300], [305, 301], [304, 302], [304, 304], [303, 305], [303, 306], [302, 307], [302, 309], [301, 310]]]" style="position:absolute; left:301px; top:271px; width:79px; height:52px; z-index:10;">
+  <img src="/static/crops/visual_G1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G1_1" data-group="G1" data-type="text" data-segmentation="[[[386, 271], [462, 271], [462, 287], [386, 284]]]" style="position:absolute; left:386px; top:271px; width:76px; height:16px; z-index:10;">
+  <img src="/static/crops/text_G1_1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G1_2" data-group="G1" data-type="text" data-segmentation="[[[394, 290], [458, 290], [458, 306], [395, 305]]]" style="position:absolute; left:394px; top:290px; width:64px; height:16px; z-index:10;">
+  <img src="/static/crops/text_G1_2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="data_graphic_G2" data-group="G2" data-type="data_graphic" data-segmentation="[[[178, 60], [177, 61], [175, 61], [168, 64], [165, 64], [159, 67], [151, 69], [139, 75], [137, 75], [135, 77], [131, 78], [130, 80], [130, 83], [137, 97], [139, 99], [146, 114], [152, 123], [156, 133], [159, 136], [159, 138], [164, 148], [168, 152], [168, 155], [172, 161], [173, 165], [175, 167], [178, 174], [182, 179], [183, 183], [190, 197], [192, 199], [194, 204], [196, 206], [197, 210], [199, 212], [199, 214], [201, 216], [201, 218], [203, 220], [212, 237], [214, 239], [215, 243], [218, 247], [218, 249], [221, 255], [223, 256], [223, 258], [225, 260], [228, 268], [233, 275], [234, 274], [234, 55], [233, 54], [216, 54], [215, 55], [199, 56], [198, 57], [193, 57], [192, 58], [188, 58], [183, 60]]]" style="position:absolute; left:130px; top:54px; width:104px; height:221px; z-index:10;">
+  <img src="/static/crops/data_graphic_G2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G2_1" data-group="G2" data-type="text" data-segmentation="[[[158, 75], [213, 75], [213, 87], [159, 88]]]" style="position:absolute; left:158px; top:75px; width:55px; height:13px; z-index:10;">
+  <img src="/static/crops/text_G2_1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G2_2" data-group="G2" data-type="text" data-segmentation="[[[160, 96], [159, 111], [220, 111], [218, 94]]]" style="position:absolute; left:159px; top:94px; width:61px; height:17px; z-index:10;">
+  <img src="/static/crops/text_G2_2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="data_graphic_G3" data-group="G3" data-type="data_graphic" data-segmentation="[[[11, 232], [13, 235], [20, 237], [25, 237], [28, 239], [39, 240], [43, 242], [48, 242], [52, 244], [68, 246], [72, 248], [76, 248], [81, 250], [102, 253], [106, 255], [111, 255], [115, 257], [129, 259], [139, 262], [144, 262], [149, 264], [155, 264], [158, 266], [163, 266], [177, 270], [187, 271], [192, 273], [197, 273], [201, 275], [205, 275], [206, 276], [218, 278], [223, 280], [231, 280], [231, 277], [228, 273], [227, 269], [223, 264], [221, 258], [214, 247], [212, 241], [205, 230], [205, 228], [199, 219], [197, 213], [195, 211], [193, 206], [190, 203], [190, 201], [188, 199], [186, 193], [183, 189], [183, 187], [177, 178], [176, 174], [169, 163], [169, 161], [158, 143], [158, 141], [155, 137], [155, 135], [153, 133], [149, 124], [147, 122], [144, 116], [144, 114], [140, 109], [139, 105], [132, 94], [132, 92], [130, 90], [128, 85], [125, 82], [103, 95], [98, 100], [95, 101], [82, 112], [56, 139], [35, 170], [32, 176], [32, 178], [26, 188], [26, 190], [20, 202]]]" style="position:absolute; left:11px; top:82px; width:220px; height:198px; z-index:10;">
+  <img src="/static/crops/data_graphic_G3.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G3" data-group="G3" data-type="visual" data-segmentation="[[[37, 184], [33, 188], [33, 190], [32, 191], [32, 198], [33, 199], [33, 200], [34, 201], [34, 202], [37, 205], [37, 206], [40, 209], [40, 210], [51, 221], [51, 222], [58, 229], [58, 230], [60, 232], [61, 232], [63, 234], [71, 234], [72, 233], [73, 233], [75, 231], [76, 231], [78, 229], [78, 228], [79, 227], [79, 220], [78, 219], [78, 218], [77, 217], [77, 216], [74, 213], [74, 212], [72, 210], [72, 209], [68, 205], [68, 204], [67, 203], [67, 202], [66, 201], [66, 200], [62, 196], [62, 195], [59, 192], [59, 191], [54, 186], [54, 185], [53, 184], [52, 184], [50, 182], [48, 182], [47, 181], [44, 181], [43, 182], [41, 182], [40, 183], [39, 183], [38, 184]]]" style="position:absolute; left:32px; top:181px; width:47px; height:53px; z-index:10;">
+  <img src="/static/crops/visual_G3.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G3_1" data-group="G3" data-type="text" data-segmentation="[[[48, 151], [143, 151], [143, 168], [46, 169]]]" style="position:absolute; left:46px; top:151px; width:97px; height:18px; z-index:10;">
+  <img src="/static/crops/text_G3_1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G3_2" data-group="G3" data-type="text" data-segmentation="[[[65, 171], [63, 186], [131, 187], [131, 170]]]" style="position:absolute; left:63px; top:170px; width:68px; height:17px; z-index:10;">
+  <img src="/static/crops/text_G3_2.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="data_graphic_G4" data-group="G4" data-type="data_graphic" data-segmentation="[[[11, 239], [9, 242], [6, 265], [6, 304], [11, 335], [20, 365], [27, 381], [36, 398], [49, 418], [60, 432], [63, 434], [64, 437], [88, 460], [108, 475], [110, 475], [121, 483], [134, 490], [169, 504], [174, 504], [185, 508], [219, 513], [225, 512], [226, 510], [226, 490], [227, 489], [227, 452], [228, 451], [229, 405], [230, 404], [233, 287], [229, 284], [224, 284], [221, 282], [211, 281], [198, 277], [192, 277], [179, 273], [152, 269], [141, 265], [129, 264], [126, 262], [109, 260], [96, 256], [65, 251], [59, 248]]]" style="position:absolute; left:6px; top:239px; width:227px; height:274px; z-index:10;">
+  <img src="/static/crops/data_graphic_G4.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="visual_G4" data-group="G4" data-type="visual" data-segmentation="[[[189, 411], [189, 412], [188, 413], [188, 420], [187, 421], [178, 421], [177, 422], [175, 422], [172, 425], [173, 426], [173, 427], [175, 429], [178, 429], [179, 428], [185, 428], [188, 431], [188, 434], [187, 435], [186, 435], [185, 436], [183, 436], [182, 437], [181, 437], [180, 438], [180, 439], [179, 440], [179, 442], [180, 443], [180, 444], [179, 445], [179, 450], [180, 451], [180, 452], [179, 453], [179, 456], [180, 457], [180, 461], [179, 462], [179, 463], [178, 464], [178, 465], [176, 467], [176, 468], [175, 469], [175, 470], [173, 472], [173, 474], [172, 475], [172, 478], [171, 479], [171, 487], [172, 488], [172, 490], [173, 491], [173, 493], [174, 494], [174, 495], [180, 501], [181, 501], [182, 502], [183, 502], [184, 503], [186, 503], [187, 504], [197, 504], [198, 503], [201, 503], [202, 502], [203, 502], [205, 500], [206, 500], [211, 495], [211, 494], [212, 493], [212, 491], [213, 490], [213, 489], [214, 488], [214, 477], [213, 476], [213, 475], [212, 474], [212, 473], [211, 472], [211, 471], [210, 470], [210, 469], [207, 466], [207, 465], [206, 464], [206, 463], [204, 461], [204, 460], [203, 459], [203, 458], [202, 457], [202, 456], [204, 454], [204, 436], [202, 434], [198, 434], [196, 432], [196, 430], [195, 429], [195, 412], [194, 411]]]" style="position:absolute; left:171px; top:411px; width:43px; height:93px; z-index:10;">
+  <img src="/static/crops/visual_G4.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G4_1" data-group="G4" data-type="text" data-segmentation="[[[58, 400], [174, 400], [173, 440], [57, 437]]]" style="position:absolute; left:57px; top:400px; width:117px; height:40px; z-index:10;">
+  <img src="/static/crops/text_G4_1.png" style="width:100%; height:100%;">
+</div>
+<div class="element" id="text_G4_2" data-group="G4" data-type="text" data-segmentation="[[[86, 443], [151, 442], [152, 461], [87, 460]]]" style="position:absolute; left:86px; top:442px; width:66px; height:19px; z-index:10;">
+  <img src="/static/crops/text_G4_2.png" style="width:100%; height:100%;">
+</div>
+
+</div>
+</body>
+</html>

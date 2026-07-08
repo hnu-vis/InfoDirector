@@ -1,0 +1,7 @@
+Message represents the core data insights that an animation aims to convey to its audience. In infographic charts, the design of animations should support the effective presentation of these data insights, ensuring that key information is communicated clearly, efficiently, and in a visually engaging manner.
+
+Scene serves as the foundation for animation. In infographic animations, visualizations function as the primary medium through which animated content is conveyed.
+
+Characters are defined as the visual elements that encode information or assist in data comprehension in infographic charts. These elements include datagraphic , imagery and built-in text.
+
+Plot refers to the coordinated arrangement of animation sequences across multiple elements, through which information is progressively revealed over the course of an animation.

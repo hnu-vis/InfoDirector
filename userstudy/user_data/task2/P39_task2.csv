@@ -1,0 +1,60 @@
+user_id,task_type,item_id,original_id,type,expressiveness,likability,feedback,time_spent
+a94572b9,task2,15,18,autoclip,4,4,,20
+a94572b9,task2,41,2,our,5,5,,5
+a94572b9,task2,32,12,static,3,2,,58
+a94572b9,task2,13,16,autoclip,3,2,,14
+a94572b9,task2,11,14,autoclip,2,2,"Does not show data except names, too simple for chart.",49
+a94572b9,task2,18,22,autoclip,4,4,,17
+a94572b9,task2,49,29,our,5,5,,6
+a94572b9,task2,38,18,static,3,2,ChatGPT is too small to find,19
+a94572b9,task2,19,23,autoclip,4,4,,12
+a94572b9,task2,5,6,autoclip,4,4,,21
+a94572b9,task2,6,7,autoclip,3,2,Can see Trump votes but Biden-Trump gap not visible.,90
+a94572b9,task2,33,13,static,5,5,,6
+a94572b9,task2,34,14,static,4,5,Can't distinguish between native and non-native,35
+a94572b9,task2,51,32,our,3,2,"Too much blank space in bottom right, poor visual.",18
+a94572b9,task2,23,3,static,3,2,,29
+a94572b9,task2,48,27,our,5,5,,10
+a94572b9,task2,29,9,static,5,5,,4
+a94572b9,task2,22,2,static,5,5,,8
+a94572b9,task2,24,4,static,5,5,,11
+a94572b9,task2,43,11,our,5,5,,8
+a94572b9,task2,31,11,static,3,4,,21
+a94572b9,task2,1,1,autoclip,2,2,"Simple info doesn't need chart, large numbers shouldn't be exact.",25
+a94572b9,task2,54,39,our,5,4,The chart appears a bit slowly,16
+a94572b9,task2,47,26,our,5,5,,6
+a94572b9,task2,8,11,autoclip,2,2,,3
+a94572b9,task2,26,6,static,5,5,,12
+a94572b9,task2,2,2,autoclip,2,2,Most important Biden-Trump gap not visible.,18
+a94572b9,task2,20,24,autoclip,4,4,,7
+a94572b9,task2,53,36,our,4,4,The chart changes too slowly,9
+a94572b9,task2,40,20,static,2,2,Can't find the key point,15
+a94572b9,task2,46,22,our,5,5,,4
+a94572b9,task2,52,28,our,5,5,,13
+a94572b9,task2,59,49,our,3,3,Moving too slowly, the information I want to see takes a long time to appear,18
+a94572b9,task2,28,8,static,4,4,,12
+a94572b9,task2,4,5,autoclip,2,2,You can see votes from each district, but can't see the difference between Biden and Trump that most people are interested in,34
+a94572b9,task2,50,30,our,5,5,,4
+a94572b9,task2,42,5,our,5,5,,3
+a94572b9,task2,27,7,static,1,1,Predicted and actual values should be distinguished,24
+a94572b9,task2,17,20,autoclip,3,1,Other dimension names are not labeled, such large numbers shouldn't be precise to single digits,34
+a94572b9,task2,30,10,static,3,2,Can't show which is Asia and which is Europe,21
+a94572b9,task2,57,46,our,5,3,Too slow,9
+a94572b9,task2,58,48,our,5,5,,7
+a94572b9,task2,44,17,our,5,5,,3
+a94572b9,task2,25,5,static,3,3,,15
+a94572b9,task2,36,16,static,4,3,Can't find US or Europe,22
+a94572b9,task2,60,50,our,5,5,,9
+a94572b9,task2,37,17,static,4,5,Can't find the US,39
+a94572b9,task2,35,15,static,5,5,,20
+a94572b9,task2,21,1,static,4,4,Color should vary more.,22
+a94572b9,task2,14,17,autoclip,5,5,,7
+a94572b9,task2,10,13,autoclip,3,3,Can't quickly see where the maximum and minimum values are,27
+a94572b9,task2,7,9,autoclip,4,3,The trend isn't actually declining,27
+a94572b9,task2,9,12,autoclip,2,2,This kind of information doesn't need to be charted,13
+a94572b9,task2,56,43,our,5,5,,33
+a94572b9,task2,3,3,autoclip,3,2,What is Trump's value? Important information is not marked. And Biden and Trump should be visually distinguished by size,34
+a94572b9,task2,55,40,our,3,3,Too slow, blocking key information. Keep the text and images, let the red background move instead.,24
+a94572b9,task2,16,19,autoclip,3,3,"Too much whitespace, small info doesn't need animation.",16
+a94572b9,task2,45,20,our,4,4,The image actually looks relatively balanced. The fourth place is half of the first place. The image and text don't match.,33
+a94572b9,task2,12,15,autoclip,3,2,What are the legends for the x-axis and y-axis should be clearly explained,16
