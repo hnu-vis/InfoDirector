@@ -29,6 +29,9 @@
     { "id": 46, "description": "The average student debt in Virginia (VA) is $5,800." },
     { "id": 48, "description": "Among the users of the Google platform, 30% obtain news through this platform." },
     { "id": 49, "description": "In 2017, the proportion of people in the United States who committed suicide by taking poison was 13.89%." },
-    { "id": 50, "description": "As shown in the chart, the number of US troops stationed in Norway is the lowest, at only 1,400." }
+    { "id": 50, "description": "As shown in the chart, the number of US troops stationed in Norway is the lowest, at only 1,400." },
+    { "id": 51, "description": "In South Africa, 688 rhinos were poached in 2013, compared with just 13 in 2007, a more than fiftyfold increase." },
+    { "id": 52, "description": "Rhino poaching in South Africa increased across the years shown, rising from 13 in 2007 to 122 in 2009, 333 in 2010, 448 in 2011, 668 in 2012 and 688 in 2013." },
+    { "id": 53, "description": "The number of battery-operated electric vehicles in India grew relatively slowly overall before 2021, then surged to a peak in 2022." }
   ]
 }

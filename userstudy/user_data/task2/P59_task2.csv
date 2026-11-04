@@ -1,61 +1,61 @@
-user_id,task_type,item_id,original_id,type,expressiveness,likability,feedback,time_spent
-81a25eb9,task2,39,19,static,3,3,"Static graphic, description not clear enough.",98
-81a25eb9,task2,52,28,our,5,5,"Clear, can understand result after animation.",27
-81a25eb9,task2,37,17,static,4,4,Country name labels are too small, need to find corresponding countries through national flags,52
-81a25eb9,task2,4,5,autoclip,5,5,"Clear, easy to understand at a glance.",18
-81a25eb9,task2,43,11,our,5,5,,7
-81a25eb9,task2,51,32,our,4,4,The image moved outside, just use a single curve to describe the trend,31
-81a25eb9,task2,48,27,our,4,4,"Other logos can be kept, Tesla highlighted at end.",34
-81a25eb9,task2,35,15,static,5,5,,16
-81a25eb9,task2,54,39,our,5,5,,8
-81a25eb9,task2,8,11,autoclip,4,4,Only shows novels as one type, other types are not written, what if one type is 50%?,33
-81a25eb9,task2,45,20,our,5,5,,24
-81a25eb9,task2,34,14,static,3,3,"Font and color contrast not obvious, hard to read data.",39
-81a25eb9,task2,36,16,static,5,5,,24
-81a25eb9,task2,21,1,static,3,3,Cannot clearly distinguish Europe proportion.,19
-81a25eb9,task2,29,9,static,3,3,,21
-81a25eb9,task2,28,8,static,5,5,,10
-81a25eb9,task2,42,5,our,5,5,,14
-81a25eb9,task2,33,13,static,5,5,,19
-81a25eb9,task2,9,12,autoclip,3,3,Only one data point, can't determine if it's the most prolific novelist,21
-81a25eb9,task2,24,4,static,3,3,,11
-81a25eb9,task2,17,20,autoclip,5,5,,9
-81a25eb9,task2,59,49,our,5,5,,8
-81a25eb9,task2,31,11,static,4,4,,22
-81a25eb9,task2,10,13,autoclip,5,5,,8
-81a25eb9,task2,49,29,our,5,5,,8
-81a25eb9,task2,7,9,autoclip,2,2,From the bar chart performance, no decline can be seen,31
-81a25eb9,task2,3,3,autoclip,5,5,,10
-81a25eb9,task2,22,2,static,5,5,,25
-81a25eb9,task2,27,7,static,5,5,,28
-81a25eb9,task2,2,2,autoclip,3,3,Missing proportional data for each candidate,28
-81a25eb9,task2,25,5,static,3,3,,40
-81a25eb9,task2,6,7,autoclip,5,5,,13
-81a25eb9,task2,26,6,static,5,5,,15
-81a25eb9,task2,38,18,static,3,3,Image font is too small, not very visible,26
-81a25eb9,task2,5,6,autoclip,5,5,,12
-81a25eb9,task2,23,3,static,5,5,,13
-81a25eb9,task2,15,18,autoclip,2,2,Doesn't indicate this is Google Play data,25
-81a25eb9,task2,32,12,static,5,5,,10
-81a25eb9,task2,57,46,our,5,5,,14
-81a25eb9,task2,41,2,our,5,5,,10
-81a25eb9,task2,46,22,our,5,5,,12
-81a25eb9,task2,12,15,autoclip,3,3,Flat in the first few years, only started rising from 2014,37
-81a25eb9,task2,20,24,autoclip,3,3,,12
-81a25eb9,task2,16,19,autoclip,3,3,,11
-81a25eb9,task2,30,10,static,2,2,Asia has China, Singapore, Saudi Arabia,43
-81a25eb9,task2,50,30,our,5,5,,7
-81a25eb9,task2,14,17,autoclip,5,5,,11
-81a25eb9,task2,58,48,our,5,5,,7
-81a25eb9,task2,53,36,our,5,5,,7
-81a25eb9,task2,1,1,autoclip,5,5,,7
-81a25eb9,task2,55,40,our,3,3,,25
-81a25eb9,task2,40,20,static,3,3,,11
-81a25eb9,task2,18,22,autoclip,5,5,,8
-81a25eb9,task2,13,16,autoclip,5,5,,11
-81a25eb9,task2,19,23,autoclip,5,5,,8
-81a25eb9,task2,11,14,autoclip,5,5,,6
-81a25eb9,task2,56,43,our,5,5,,9
-81a25eb9,task2,44,17,our,5,5,,10
-81a25eb9,task2,60,50,our,5,5,,6
-81a25eb9,task2,47,26,our,5,5,,8
+user_id,task_type,question_id,chart_type,format,expressiveness,likability,time_spent
+132e9977,task2,11,bar,static,4,5,
+132e9977,task2,20,area,autoclip-info,2,3,
+132e9977,task2,9,bar,our,5,5,
+132e9977,task2,1,bar,our,5,5,
+132e9977,task2,21,line,our,3,3,
+132e9977,task2,4,bar,static,4,5,
+132e9977,task2,20,area,our,3,4,
+132e9977,task2,35,scatterplot,our,5,5,
+132e9977,task2,16,pie,autoclip-info,2,4,
+132e9977,task2,25,bubble,static,2,1,
+132e9977,task2,29,area,static,2,2,
+132e9977,task2,31,treemap,autoclip-info,4,3,
+132e9977,task2,1,bar,autoclip-info,4,4,
+132e9977,task2,10,bar,static,4,4,
+132e9977,task2,10,bar,our,5,3,
+132e9977,task2,28,bubblemap,static,2,3,
+132e9977,task2,8,bar,static,3,3,
+132e9977,task2,27,map,our,5,5,
+132e9977,task2,22,treemap,autoclip-info,4,3,
+132e9977,task2,34,bar,our,4,4,
+132e9977,task2,13,pie,static,5,4,
+132e9977,task2,28,bubblemap,our,5,2,
+132e9977,task2,38,map,our,5,5,
+132e9977,task2,26,map,our,5,5,
+132e9977,task2,40,treemap,our,3,3,
+132e9977,task2,5,bar,autoclip-info,4,4,
+132e9977,task2,34,bar,autoclip-info,4,4,
+132e9977,task2,2,bar,autoclip-info,4,4,
+132e9977,task2,14,pie,our,5,5,
+132e9977,task2,14,pie,autoclip-info,4,4,
+132e9977,task2,12,pie,autoclip-info,4,4,
+132e9977,task2,32,bubble,autoclip-info,2,3,
+132e9977,task2,15,pie,static,5,4,
+132e9977,task2,33,bar,our,4,4,
+132e9977,task2,19,line,static,2,1,
+132e9977,task2,36,bubble,autoclip-info,5,5,
+132e9977,task2,4,bar,our,5,5,
+132e9977,task2,33,bar,static,3,3,
+132e9977,task2,37,bubble,autoclip-info,4,4,
+132e9977,task2,13,pie,autoclip-info,3,2,
+132e9977,task2,15,pie,our,4,4,
+132e9977,task2,5,bar,our,5,4,
+132e9977,task2,12,pie,static,5,5,
+132e9977,task2,6,bar,autoclip-info,3,2,
+132e9977,task2,16,pie,static,1,3,
+132e9977,task2,39,bubble,our,4,5,
+132e9977,task2,36,bubble,static,5,5,
+132e9977,task2,5,bar,static,4,3,
+132e9977,task2,34,bar,static,2,2,
+132e9977,task2,33,bar,autoclip-info,3,2,
+132e9977,task2,23,treemap,autoclip-info,1,1,
+132e9977,task2,19,line,autoclip-info,4,4,
+132e9977,task2,37,bubble,our,3,4,
+132e9977,task2,24,bubble,our,5,5,
+132e9977,task2,7,bubble,autoclip-info,4,5,
+132e9977,task2,26,map,static,2,2,
+132e9977,task2,31,treemap,static,1,1,
+132e9977,task2,39,bubble,static,3,2,
+132e9977,task2,4,bar,autoclip-info,5,4,
+132e9977,task2,2,bar,static,3,2,
